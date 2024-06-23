@@ -347,13 +347,36 @@ section {
 
 article {
     display: flex;
-    width: 10rem;
-    justify-content: space-around;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 0.5rem;
 }
 
 article .icon {
     cursor: default;
+}
+
+.icon-skill {
+    transition: transform 0.3s ease;
+    margin-top: 2rem;
+    height: 3rem;
+    width: 3rem;
+}
+
+.icon-skill:hover {
+    transform: scale(1.5);
+}
+
+.skill-name {
+    color: white;
+    transition: color 0.3s ease;
+    margin-top: 0.5rem;
+}
+
+article:hover .skill-name {
+    color: black;
 }
 
 /* PROJECTS */
