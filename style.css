@@ -347,7 +347,8 @@ section {
 
 article {
     display: flex;
-    width: auto;
+    width: 105px;
+    height: 125px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
