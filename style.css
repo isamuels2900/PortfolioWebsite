@@ -392,6 +392,7 @@ article:hover .skill-name {
 
 .project-img {
     border-radius: 1rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
     width: 90%;
     height: 90%;
 }
